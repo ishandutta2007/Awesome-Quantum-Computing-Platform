@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070B19" />
+      <stop offset="50%" stop-color="#0B132B" />
+      <stop offset="100%" stop-color="#1C2541" />
+    </linearGradient>
+    <linearGradient id="cyan-purple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE" />
+      <stop offset="50%" stop-color="#4FACFE" />
+      <stop offset="100%" stop-color="#9B51E0" />
+    </linearGradient>
+    <linearGradient id="accent-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700" />
+      <stop offset="100%" stop-color="#FF8C00" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="soft-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .title { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 800; font-size: 40px; fill: #FFFFFF; }
+    .subtitle { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 600; font-size: 16px; fill: #64DFDF; letter-spacing: 2px; }
+    .tagline { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 400; font-size: 14px; fill: #94A3B8; }
+    .badge-text { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 600; font-size: 12px; fill: #00F2FE; }
+    .qubit-core { animation: pulse 3s ease-in-out infinite alternate; }
+    .orbit-1 { transform-origin: 980px 180px; animation: spin 18s linear infinite; }
+    .orbit-2 { transform-origin: 980px 180px; animation: spin-rev 24s linear infinite; }
+    .orbit-3 { transform-origin: 980px 180px; animation: spin 30s linear infinite; }
+    .wave { stroke-dasharray: 6 6; animation: dash 12s linear infinite; }
+    @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    @keyframes spin-rev { 0% { transform: rotate(360deg); } 100% { transform: rotate(0deg); } }
+    @keyframes dash { to { stroke-dashoffset: -100; } }
+    @keyframes pulse { 0% { r: 18; opacity: 0.8; } 100% { r: 24; opacity: 1; filter: drop-shadow(0 0 16px #00F2FE); } }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="360" rx="16" fill="url(#bg-grad)"/>
+  <rect width="1200" height="360" rx="16" fill="none" stroke="rgba(0, 242, 254, 0.25)" stroke-width="2"/>
+
+  <!-- Background Quantum Grid Mesh -->
+  <g opacity="0.10" stroke="#00F2FE" stroke-width="1">
+    <line x1="60" y1="0" x2="60" y2="360" />
+    <line x1="160" y1="0" x2="160" y2="360" />
+    <line x1="260" y1="0" x2="260" y2="360" />
+    <line x1="360" y1="0" x2="360" y2="360" />
+    <line x1="460" y1="0" x2="460" y2="360" />
+    <line x1="560" y1="0" x2="560" y2="360" />
+    <line x1="660" y1="0" x2="660" y2="360" />
+    <line x1="760" y1="0" x2="760" y2="360" />
+    <line x1="860" y1="0" x2="860" y2="360" />
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+  </g>
+
+  <!-- Quantum Wave Curves -->
+  <g opacity="0.25">
+    <path d="M0,180 Q150,70 300,180 T600,180 T900,180 T1200,180" fill="none" stroke="#00F2FE" stroke-width="2" class="wave" />
+    <path d="M0,180 Q150,290 300,180 T600,180 T900,180 T1200,180" fill="none" stroke="#9B51E0" stroke-width="2" class="wave" />
+  </g>
+
+  <!-- Left Content Block -->
+  <g transform="translate(64, 0)">
+    <!-- Category Pill -->
+    <g transform="translate(0, 50)">
+      <rect width="320" height="28" rx="14" fill="rgba(0, 242, 254, 0.10)" stroke="rgba(0, 242, 254, 0.4)" stroke-width="1"/>
+      <circle cx="14" cy="14" r="4" fill="#00F2FE" filter="url(#glow)"/>
+      <text x="28" y="18" class="badge-text">QUANTUM COMPUTING ECOSYSTEM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="126" class="title">Awesome Quantum Platforms</text>
+    <text x="0" y="162" class="subtitle">CLOUD QPUS, SIMULATORS, SDKS &amp; ALGORITHMS</text>
+
+    <!-- Description -->
+    <text x="0" y="202" class="tagline">A curated guide to commercial quantum clouds and top open-source repositories.</text>
+    <text x="0" y="224" class="tagline">Covering Superconducting, Trapped-Ion, Neutral-Atom, Photonic, and Annealing QPUs.</text>
+
+    <!-- Feature Tags -->
+    <g transform="translate(0, 258)">
+      <g transform="translate(0, 0)">
+        <rect width="115" height="30" rx="6" fill="rgba(255, 255, 255, 0.05)" stroke="rgba(255, 255, 255, 0.15)"/>
+        <text x="14" y="20" fill="#E2E8F0" font-family="sans-serif" font-size="12" font-weight="600">&#9883; Cloud QPUs</text>
+      </g>
+      <g transform="translate(127, 0)">
+        <rect width="125" height="30" rx="6" fill="rgba(255, 255, 255, 0.05)" stroke="rgba(255, 255, 255, 0.15)"/>
+        <text x="14" y="20" fill="#E2E8F0" font-family="sans-serif" font-size="12" font-weight="600">&#9889; Quantum SDKs</text>
+      </g>
+      <g transform="translate(264, 0)">
+        <rect width="125" height="30" rx="6" fill="rgba(255, 255, 255, 0.05)" stroke="rgba(255, 255, 255, 0.15)"/>
+        <text x="14" y="20" fill="#E2E8F0" font-family="sans-serif" font-size="12" font-weight="600">&#129516; Simulators</text>
+      </g>
+      <g transform="translate(401, 0)">
+        <rect width="135" height="30" rx="6" fill="rgba(255, 255, 255, 0.05)" stroke="rgba(255, 255, 255, 0.15)"/>
+        <text x="14" y="20" fill="#E2E8F0" font-family="sans-serif" font-size="12" font-weight="600">&#127760; Hybrid Solvers</text>
+      </g>
+      <g transform="translate(548, 0)">
+        <rect width="125" height="30" rx="6" fill="rgba(255, 255, 255, 0.05)" stroke="rgba(255, 255, 255, 0.15)"/>
+        <text x="14" y="20" fill="#00F2FE" font-family="sans-serif" font-size="12" font-weight="600">&#9733; Open Source</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Bloch Sphere / Quantum Circuit Graphics -->
+  <g transform="translate(980, 180)">
+    <!-- Outer Glow Aura -->
+    <circle cx="0" cy="0" r="110" fill="none" stroke="url(#cyan-purple)" stroke-width="1.5" opacity="0.3" stroke-dasharray="4 4"/>
+    <circle cx="0" cy="0" r="85" fill="rgba(79, 172, 254, 0.03)"/>
+
+    <!-- Bloch Sphere Coordinate Axes -->
+    <line x1="0" y1="-100" x2="0" y2="100" stroke="rgba(255, 255, 255, 0.25)" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <line x1="-100" y1="0" x2="100" y2="0" stroke="rgba(255, 255, 255, 0.25)" stroke-width="1.5" stroke-dasharray="3 3"/>
+    
+    <!-- State Ket Labels -->
+    <text x="-8" y="-108" fill="#00F2FE" font-family="sans-serif" font-size="12" font-weight="bold">|0&#10217;</text>
+    <text x="-8" y="120" fill="#9B51E0" font-family="sans-serif" font-size="12" font-weight="bold">|1&#10217;</text>
+    <text x="105" y="5" fill="#4FACFE" font-family="sans-serif" font-size="11">|+&#10217;</text>
+    <text x="-122" y="5" fill="#4FACFE" font-family="sans-serif" font-size="11">|-&#10217;</text>
+
+    <!-- Elliptical Quantum Orbit Rings -->
+    <g class="orbit-1">
+      <ellipse cx="0" cy="0" rx="90" ry="38" fill="none" stroke="#00F2FE" stroke-width="1.8" opacity="0.85" />
+      <circle cx="90" cy="0" r="4.5" fill="#00F2FE" filter="url(#glow)"/>
+    </g>
+
+    <g class="orbit-2" transform="rotate(60)">
+      <ellipse cx="0" cy="0" rx="90" ry="34" fill="none" stroke="#9B51E0" stroke-width="1.8" opacity="0.8" />
+      <circle cx="-90" cy="0" r="4" fill="#C77DFF" filter="url(#glow)"/>
+    </g>
+
+    <g class="orbit-3" transform="rotate(120)">
+      <ellipse cx="0" cy="0" rx="90" ry="34" fill="none" stroke="#4FACFE" stroke-width="1.8" opacity="0.8" />
+      <circle cx="0" cy="34" r="4" fill="#4FACFE" filter="url(#glow)"/>
+    </g>
+
+    <!-- Superposition State Vector -->
+    <line x1="0" y1="0" x2="48" y2="-60" stroke="url(#accent-gold)" stroke-width="2.5" filter="url(#glow)"/>
+    <circle cx="48" cy="-60" r="5" fill="#FFD700" filter="url(#glow)"/>
+    <text x="56" y="-64" fill="#FFD700" font-family="sans-serif" font-size="13" font-weight="bold">|&#968;&#10217;</text>
+
+    <!-- Core Entangled State Particle -->
+    <circle cx="0" cy="0" r="20" fill="url(#cyan-purple)" opacity="0.35" filter="url(#soft-glow)"/>
+    <circle class="qubit-core" cx="0" cy="0" r="18" fill="url(#cyan-purple)" filter="url(#glow)"/>
+    <text x="-7" y="6" fill="#070B19" font-family="sans-serif" font-size="15" font-weight="900">&#936;</text>
+  </g>
+</svg>
