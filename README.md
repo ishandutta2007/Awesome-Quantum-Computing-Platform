@@ -1,15 +1,15 @@
 # Awesome-Quantum-Computing-Platform
 
-## Top Restaurant Management Platforms Ecosystem
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-*Focused on Restaurant POS, Inventory, Labor, Reservations, Back-Office & Operations*
+## Top Quantum Computing Platforms Ecosystem
+**Curated List of SaaS/Cloud Products & Open-Source GitHub Projects**
+*Focused on Quantum Hardware Access, SDKs, Simulators, Hybrid Algorithms & Quantum Software Development*
 **Last updated: September 2026**
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Restaurant Management**. These systems cover point-of-sale, kitchen display, inventory and food cost, staff scheduling, reservations, online ordering integrations, accounting, and overall restaurant operations.
+This repository tracks notable **cloud/SaaS platforms** and **open-source projects** for **Quantum Computing**. These systems provide access to quantum processing units (QPUs), high-performance simulators, circuit development tools, hybrid classical-quantum workflows, and algorithm libraries across superconducting, trapped-ion, neutral-atom, annealing, and other modalities.
 
-**Examples** include Toast, Square for Restaurants, TouchBistro, Lightspeed Restaurant, Resy, OpenTable, 7shifts, Restaurant365, MarginEdge, SpotOn, Clover, Oracle Simphony, Revel Systems, Upserve, Eat App, CrunchTime, MarketMan, Compeat, Tenzo, Deliverect, Yellow Dog Inventory, and BlueCart (the category leaders).
+**Examples** include IBM Quantum, Azure Quantum, Amazon Braket, D-Wave Leap, Classiq, Quantum Inspire, Pasqal Cloud, IQM Resonance, Q-CTRL Fire Opal, and Rigetti QCS (the category leaders).
 
-**Open-source emphasis**: Full-featured restaurant management suites are predominantly commercial. Useful open options exist for POS, basic inventory, and ERP-based restaurant modules (especially ERPNext/Odoo derivatives). This section lists the strongest available projects and is realistic about the gap.
+**Open-source emphasis**: Quantum computing has one of the strongest open-source ecosystems in emerging technology. **Qiskit**, **Cirq**, **PennyLane**, **Ocean SDK**, and related projects are the primary tools used by researchers and developers worldwide. This section is heavily expanded with these frameworks.
 
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
@@ -20,99 +20,75 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 - [Disclaimer](#disclaimer)
 
 ## SaaS/Hosted Platforms
-- **[Toast](https://pos.toasttab.com/)**  
-  Leading restaurant-native POS and operations platform with strong kitchen, ordering, offline, and multi-location capabilities.
+- **[IBM Quantum](https://www.ibm.com/quantum)**  
+  Leading quantum cloud platform offering access to superconducting processors, extensive free tier, and the Qiskit ecosystem for circuit development and execution.
 
-- **[Square for Restaurants](https://squareup.com/us/en/point-of-sale/restaurants)**  
-  Accessible restaurant POS with free tier options, hardware flexibility, and integrated payments — popular with smaller operators.
+- **[Azure Quantum](https://azure.microsoft.com/en-us/products/quantum)**  
+  Microsoft’s quantum cloud service providing multi-provider hardware access, Q# and QDK tools, and enterprise integration.
 
-- **[TouchBistro](https://www.touchbistro.com/)**  
-  Restaurant POS focused on table service, menu management, and operational tools for independent and multi-unit restaurants.
+- **[Amazon Braket](https://aws.amazon.com/braket/)**  
+  AWS quantum computing service with access to multiple hardware providers (superconducting, trapped-ion, neutral-atom, annealing) and managed Jupyter environments.
 
-- **[Lightspeed Restaurant](https://www.lightspeedhq.com/pos/restaurant/)**  
-  Customizable restaurant POS with solid reporting, inventory, and multi-location support.
+- **[D-Wave Leap](https://www.dwavesys.com/learn/leap/)**  
+  Cloud platform focused on quantum annealing and hybrid solvers for optimization problems, with real-time access to D-Wave systems.
 
-- **[Resy](https://resy.com/)**  
-  Premium reservations and guest experience platform favored by upscale and high-demand restaurants.
+- **[Classiq](https://www.classiq.io/)**  
+  Quantum software platform emphasizing high-level algorithm design, circuit synthesis, and hardware-agnostic development.
 
-- **[OpenTable](https://www.opentable.com/)**  
-  Widely used restaurant reservation and discovery platform with guest management and marketing tools.
+- **[Quantum Inspire](https://www.quantum-inspire.com/)**  
+  European quantum computing platform offering access to spin-qubit and other hardware along with educational and research tools.
 
-- **[7shifts](https://www.7shifts.com/)**  
-  Restaurant-specific workforce management platform for scheduling, labor cost control, and team communication.
+- **[Pasqal Cloud](https://www.pasqal.com/)**  
+  Neutral-atom quantum computing cloud platform for analog and digital quantum workloads.
 
-- **[Restaurant365](https://www.restaurant365.com/)**  
-  Back-office platform focused on accounting, inventory, food cost, and restaurant financial operations.
+- **[IQM Resonance](https://www.meetiqm.com/)**  
+  Quantum cloud access platform from IQM focused on superconducting quantum computers and research/enterprise use cases.
 
-- **[MarginEdge](https://www.marginedge.com/)**  
-  Restaurant inventory, recipe, and invoice automation platform aimed at controlling food costs.
+- **[Q-CTRL Fire Opal](https://q-ctrl.com/fire-opal)**  
+  Quantum infrastructure software that improves performance and error suppression on existing quantum hardware backends.
 
-- **[SpotOn](https://www.spoton.com/)**  
-  Restaurant POS and management platform with integrated payments and operational tools.
-
-- **[Clover](https://www.clover.com/)**  
-  Flexible POS hardware and software platform used by many restaurants alongside other operations tools.
-
-- **[Oracle Simphony](https://www.oracle.com/food-beverage/restaurant-pos-systems/simphony/)**  
-  Enterprise restaurant POS and management suite for large multi-unit and complex operations.
-
-- **[Revel Systems](https://revelsystems.com/)**  
-  iPad-based POS platform used in restaurants and other hospitality settings.
-
-- **[CrunchTime](https://www.crunchtime.com/)**  
-  Restaurant operations platform focused on inventory, food cost, labor, and enterprise reporting.
-
-- **[MarketMan](https://www.marketman.com/)**  
-  Inventory and purchasing management platform for restaurants and foodservice operators.
-
-- **[Deliverect](https://www.deliverect.com/)**  
-  Online ordering and delivery integration platform that connects restaurants to multiple delivery channels.
-
-- **[Yellow Dog Inventory](https://www.yellowdogsoftware.com/)**  
-  Inventory management system used in restaurants, hotels, and multi-outlet foodservice.
-
-- **[BlueCart](https://www.bluecart.com/)**  
-  Ordering and supply-chain platform connecting restaurants with suppliers.
+- **[Rigetti QCS](https://www.rigetti.com/)**  
+  Rigetti’s Quantum Cloud Services platform providing access to their superconducting quantum processors and Forest SDK tools.
 
 ## Open-Source GitHub Projects
-- **[URY – Open Source Restaurant Management (ERPNext)](https://github.com/ury-erp/ury)**  
-  FOSS restaurant management system built on ERPNext — includes POS, kitchen display, order management, and analytics.
+- **[Qiskit](https://github.com/Qiskit/qiskit)**  
+  The most widely used open-source quantum SDK (IBM) for circuit design, simulation, optimization, and execution on IBM Quantum and other backends.
 
-- **[FloCafe / FloPOS open restaurant POS](https://flopos.com/)**  
-  Open-source restaurant POS focused on ordering, tables, kitchen display, printing, staff roles, and local data ownership.
+- **[Cirq](https://github.com/quantumlib/Cirq)**  
+  Google’s open-source Python framework for creating, editing, and running NISQ circuits, with strong hardware-aware features and noise modeling.
 
-- **[Odoo Restaurant / POS modules](https://github.com/odoo)**  
-  Community and official modules that extend Odoo for restaurant POS, table management, and related operations.
+- **[PennyLane](https://github.com/PennyLaneAI/pennylane)**  
+  Open-source quantum software platform focused on quantum machine learning, differentiable programming, and quantum chemistry (Xanadu).
 
-- **[Chromis POS and classic open POS projects](https://github.com/)**  
-  Long-standing open-source point-of-sale systems that some restaurants still adapt for basic needs.
+- **[Ocean SDK (D-Wave)](https://github.com/dwavesystems)**  
+  Open-source tools for quantum annealing, hybrid solvers, and optimization on D-Wave systems.
 
-- **[Custom Next.js / modern open restaurant POS projects](https://github.com/)**  
-  Community-built POS and management dashboards covering orders, tables, KOT, and basic inventory.
+- **[PyQuil / Forest SDK](https://github.com/rigetti)**  
+  Rigetti’s open-source tools for programming and running quantum programs on their hardware and simulators.
 
-- **[Kitchen Display and order-queue open tools](https://github.com/)**  
-  Lightweight open systems for routing tickets to kitchen stations.
+- **[Q# and Quantum Development Kit components](https://github.com/microsoft/qsharp)**  
+  Microsoft’s open-source quantum programming language and related libraries for algorithm development.
 
-- **[Inventory and recipe open trackers](https://github.com/)**  
-  Simple open tools for ingredient tracking, recipe costing, and stock management that can complement a POS.
+- **[CUDA-Q](https://github.com/NVIDIA/cuda-quantum)**  
+  NVIDIA’s open-source platform for hybrid quantum-classical computing with strong GPU-accelerated simulation.
 
-- **[Staff scheduling open systems](https://github.com/)**  
-  General open workforce scheduling tools that restaurants sometimes adapt for shift management.
+- **[TKET](https://github.com/CQCL/tket)**  
+  Open-source quantum compiler and toolkit (Quantinuum/Cambridge Quantum) for circuit optimization and retargeting.
 
-- **[Reservation and table-management open experiments](https://github.com/)**  
-  Community projects offering basic booking and floor-plan features.
+- **[ProjectQ, OpenQASM, and other circuit frameworks](https://github.com/)**  
+  Additional open-source quantum programming and intermediate representation projects used in research and education.
 
-- **[ERPNext / Frappe restaurant customizations](https://github.com/)**  
-  Additional open extensions that build full restaurant workflows on the Frappe/ERPNext stack.
+- **[Quantum simulators (Qiskit Aer, qsim, Stim, etc.)](https://github.com/)**  
+  High-performance open-source simulators for statevector, density matrix, stabilizer, and noisy circuit simulation.
 
 ### Additional Strong Open-Source Options
-- Starting with **URY (ERPNext)** or **Odoo restaurant modules** when you want an integrated open ERP + POS approach.
-- Evaluating **FloCafe** or similar open POS projects for simpler, locally controlled front-of-house needs.
-- Combining an open POS with separate open inventory and scheduling tools for a modular stack.
-- Accepting that mature payment processing, delivery integrations, advanced food-cost analytics, multi-location enterprise reporting, and polished hardware ecosystems still favor commercial platforms (Toast, Square, Lightspeed, Restaurant365, etc.).
-- Using open tools primarily for back-office or secondary locations while keeping a commercial POS for primary operations and payments.
+- Starting with **Qiskit** for the largest community, tutorials, and free IBM Quantum access.
+- Choosing **Cirq** when working closely with Google hardware or needing fine-grained NISQ control.
+- Using **PennyLane** for quantum machine learning and differentiable quantum circuits.
+- Combining open SDKs with cloud backends (Braket, Azure Quantum, IBM) for hybrid development.
+- Accepting that actual QPU time, enterprise support, error-mitigation services, and multi-provider orchestration still rely on commercial cloud platforms.
 
-**Frameworks for building custom systems**: Deploy an open POS (URY, FloCafe, or Odoo-based) → manage tables and kitchen tickets → track basic inventory and recipes → handle staff schedules with open or lightweight tools → integrate payments and delivery via third-party services. This can work for independent operators with technical support. Commercial platforms (Toast, Square for Restaurants, TouchBistro, Lightspeed, Restaurant365, 7shifts, MarginEdge, Oracle Simphony, etc.) remain the practical choice for most restaurants that need reliability, integrated payments, support, and proven operational workflows.
+**Frameworks for building custom systems**: Develop circuits and algorithms with Qiskit, Cirq, or PennyLane → simulate locally or on GPU-accelerated open simulators → execute on cloud QPUs via IBM Quantum, Amazon Braket, Azure Quantum, or other providers → apply open error-mitigation and optimization techniques. This workflow is the standard open path for quantum research and early application development. Commercial platforms (IBM Quantum, Azure Quantum, Amazon Braket, D-Wave Leap, Classiq, etc.) provide the hardware access, managed environments, and advanced services that complement the open software stack.
 
 ## How to Contribute
 1. Fork the repo.
@@ -124,8 +100,8 @@ Star the repo if you find it useful!
 
 ## Disclaimer
 - This is a **community-curated** list — not exhaustive and not an endorsement.
-- Restaurant operations involve payments, food safety, labor regulations, and guest data. Errors in POS, inventory, or scheduling systems can affect revenue, compliance, and customer experience. Open-source or self-hosted solutions require proper security, PCI considerations for payments, backups, and operational testing. Always follow local health, labor, and payment regulations. This list is not operational, legal, or financial advice.
+- Quantum computing is an emerging field. Hardware performance, qubit counts, error rates, and availability change rapidly. Open-source software and cloud platforms should be evaluated against current documentation and research needs. Access to real quantum hardware often involves usage limits, queues, or paid plans. This list is not scientific, investment, or technology-selection advice.
 
 ---
-**Made for restaurant owners, operators, and multi-unit groups who want efficient front- and back-of-house control.**
-Let's keep restaurant operations smooth, data-driven, and as open as practical.
+**Made for quantum researchers, developers, and organizations exploring practical quantum computing.**
+Let's keep quantum software open, interoperable, and advancing together.
