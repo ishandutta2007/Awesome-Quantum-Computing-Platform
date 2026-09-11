@@ -70,49 +70,49 @@ Quantum computing boasts one of the most vibrant open-source ecosystems in techn
 ### 🌟 Core Open-Source Repositories (Ranked by Stars)
 *Sorted in descending order by GitHub stargazers count.*
 
-1. **[Qiskit](https://github.com/Qiskit/qiskit)** [![GitHub stars](https://img.shields.io/github/stars/Qiskit/qiskit?style=social&color=white)](https://github.com/Qiskit/qiskit/stargazers)  
+1. **[Qiskit](https://github.com/Qiskit/qiskit)** [![GitHub_Stars](https://img.shields.io/github/stars/Qiskit/qiskit?style=social&color=white)](https://github.com/Qiskit/qiskit/stargazers)  
    The industry-standard open-source SDK created by IBM for working with quantum computers at the level of pulses, circuits, and application modules. Includes advanced synthesis, transpilation, and runtime primitives.
 
-2. **[Cirq](https://github.com/quantumlib/Cirq)** [![GitHub stars](https://img.shields.io/github/stars/quantumlib/Cirq?style=social&color=white)](https://github.com/quantumlib/Cirq/stargazers)  
+2. **[Cirq](https://github.com/quantumlib/Cirq)** [![GitHub_Stars](https://img.shields.io/github/stars/quantumlib/Cirq?style=social&color=white)](https://github.com/quantumlib/Cirq/stargazers)  
    Google Quantum AI's Python library for writing, manipulating, and optimizing NISQ (Noisy Intermediate-Scale Quantum) circuits, with specialized calibration and hardware-level native gate targeting.
 
-3. **[PennyLane](https://github.com/PennyLaneAI/pennylane)** [![GitHub stars](https://img.shields.io/github/stars/PennyLaneAI/pennylane?style=social&color=white)](https://github.com/PennyLaneAI/pennylane/stargazers)  
+3. **[PennyLane](https://github.com/PennyLaneAI/pennylane)** [![GitHub_Stars](https://img.shields.io/github/stars/PennyLaneAI/pennylane?style=social&color=white)](https://github.com/PennyLaneAI/pennylane/stargazers)  
    A cross-platform Python library developed by Xanadu for quantum machine learning, automatic differentiation, and hybrid classical-quantum computing across PyTorch, TensorFlow, and JAX.
 
-4. **[TorchQuantum](https://github.com/mit-han-lab/torchquantum)** [![GitHub stars](https://img.shields.io/github/stars/mit-han-lab/torchquantum?style=social&color=white)](https://github.com/mit-han-lab/torchquantum/stargazers)  
+4. **[TorchQuantum](https://github.com/mit-han-lab/torchquantum)** [![GitHub_Stars](https://img.shields.io/github/stars/mit-han-lab/torchquantum?style=social&color=white)](https://github.com/mit-han-lab/torchquantum/stargazers)  
    A PyTorch-centric library developed by the MIT Han Lab for quantum circuit simulation, quantum machine learning, noise-aware quantum architecture search (QAS), and quantum AI applications.
 
-5. **[PyQuil](https://github.com/rigetti/pyquil)** [![GitHub stars](https://img.shields.io/github/stars/rigetti/pyquil?style=social&color=white)](https://github.com/rigetti/pyquil/stargazers)  
+5. **[PyQuil](https://github.com/rigetti/pyquil)** [![GitHub_Stars](https://img.shields.io/github/stars/rigetti/pyquil?style=social&color=white)](https://github.com/rigetti/pyquil/stargazers)  
    Rigetti Computing’s Python library for quantum programming using the Quil instruction language, interacting with the Forest SDK, Quantum Virtual Machine (QVM), and Rigetti QPUs.
 
-6. **[CUDA-Q](https://github.com/NVIDIA/cuda-quantum)** [![GitHub stars](https://img.shields.io/github/stars/NVIDIA/cuda-quantum?style=social&color=white)](https://github.com/NVIDIA/cuda-quantum/stargazers)  
+6. **[CUDA-Q](https://github.com/NVIDIA/cuda-quantum)** [![GitHub_Stars](https://img.shields.io/github/stars/NVIDIA/cuda-quantum?style=social&color=white)](https://github.com/NVIDIA/cuda-quantum/stargazers)  
    NVIDIA's open-source unified programming model and compiler platform for hybrid quantum-classical computing, enabling high-performance GPU-accelerated simulation and tight QPU-GPU co-processing.
 
-7. **[Yao.jl](https://github.com/QuantumBFS/Yao.jl)** [![GitHub stars](https://img.shields.io/github/stars/QuantumBFS/Yao.jl?style=social&color=white)](https://github.com/QuantumBFS/Yao.jl/stargazers)  
+7. **[Yao.jl](https://github.com/QuantumBFS/Yao.jl)** [![GitHub_Stars](https://img.shields.io/github/stars/QuantumBFS/Yao.jl?style=social&color=white)](https://github.com/QuantumBFS/Yao.jl/stargazers)  
    An extensible, highly efficient quantum simulation framework written entirely in Julia, offering differentiable quantum circuits, tensor network contractions, and hardware acceleration.
 
-8. **[Q# / Quantum Development Kit](https://github.com/microsoft/qsharp)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/qsharp?style=social&color=white)](https://github.com/microsoft/qsharp/stargazers)  
+8. **[Q# / Quantum Development Kit](https://github.com/microsoft/qsharp)** [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/qsharp?style=social&color=white)](https://github.com/microsoft/qsharp/stargazers)  
    Microsoft's domain-specific programming language and toolchain engineered for quantum algorithm expression, resource estimation, and scalable fault-tolerant application design.
 
-9. **[ProjectQ](https://github.com/ProjectQ-Framework/ProjectQ)** [![GitHub stars](https://img.shields.io/github/stars/ProjectQ-Framework/ProjectQ?style=social&color=white)](https://github.com/ProjectQ-Framework/ProjectQ/stargazers)  
+9. **[ProjectQ](https://github.com/ProjectQ-Framework/ProjectQ)** [![GitHub_Stars](https://img.shields.io/github/stars/ProjectQ-Framework/ProjectQ?style=social&color=white)](https://github.com/ProjectQ-Framework/ProjectQ/stargazers)  
    An open-source quantum software framework originally from ETH Zurich featuring an extensible compiler engine, high-level algorithm synthesis, and multiple hardware export targets.
 
-10. **[Stim](https://github.com/quantumlib/Stim)** [![GitHub stars](https://img.shields.io/github/stars/quantumlib/Stim?style=social&color=white)](https://github.com/quantumlib/Stim/stargazers)  
+10. **[Stim](https://github.com/quantumlib/Stim)** [![GitHub_Stars](https://img.shields.io/github/stars/quantumlib/Stim?style=social&color=white)](https://github.com/quantumlib/Stim/stargazers)  
     Google Quantum AI's hyper-fast stabilizer circuit simulator designed specifically for quantum error correction (QEC) research, surface codes, and syndrome extraction benchmarks.
 
-11. **[Qiskit Aer](https://github.com/Qiskit/qiskit-aer)** [![GitHub stars](https://img.shields.io/github/stars/Qiskit/qiskit-aer?style=social&color=white)](https://github.com/Qiskit/qiskit-aer/stargazers)  
+11. **[Qiskit Aer](https://github.com/Qiskit/qiskit-aer)** [![GitHub_Stars](https://img.shields.io/github/stars/Qiskit/qiskit-aer?style=social&color=white)](https://github.com/Qiskit/qiskit-aer/stargazers)  
     The high-performance simulator backend framework for Qiskit written in C++ with GPU and tensor-network acceleration, providing realistic noisy channel and statevector models.
 
-12. **[D-Wave Ocean SDK](https://github.com/dwavesystems/dwave-ocean-sdk)** [![GitHub stars](https://img.shields.io/github/stars/dwavesystems/dwave-ocean-sdk?style=social&color=white)](https://github.com/dwavesystems/dwave-ocean-sdk/stargazers)  
+12. **[D-Wave Ocean SDK](https://github.com/dwavesystems/dwave-ocean-sdk)** [![GitHub_Stars](https://img.shields.io/github/stars/dwavesystems/dwave-ocean-sdk?style=social&color=white)](https://github.com/dwavesystems/dwave-ocean-sdk/stargazers)  
     A suite of open-source Python tools for solving NP-hard combinatorial optimization, Quadratic Unconstrained Binary Optimization (QUBO), and Ising models on D-Wave quantum annealers.
 
-13. **[Mitiq](https://github.com/unitaryfoundation/mitiq)** [![GitHub stars](https://img.shields.io/github/stars/unitaryfoundation/mitiq?style=social&color=white)](https://github.com/unitaryfoundation/mitiq/stargazers)  
+13. **[Mitiq](https://github.com/unitaryfoundation/mitiq)** [![GitHub_Stars](https://img.shields.io/github/stars/unitaryfoundation/mitiq?style=social&color=white)](https://github.com/unitaryfoundation/mitiq/stargazers)  
     An open-source compiler by the Unitary Fund for quantum error mitigation (QEM), implementing Zero-Noise Extrapolation (ZNE), Probabilistic Error Cancellation (PEC), and Clifford data regression across any backend.
 
-14. **[TKET](https://github.com/Quantinuum/tket)** [![GitHub stars](https://img.shields.io/github/stars/Quantinuum/tket?style=social&color=white)](https://github.com/Quantinuum/tket/stargazers)  
+14. **[TKET](https://github.com/Quantinuum/tket)** [![GitHub_Stars](https://img.shields.io/github/stars/Quantinuum/tket?style=social&color=white)](https://github.com/Quantinuum/tket/stargazers)  
     Quantinuum's advanced quantum compiler providing state-of-the-art circuit routing, peephole optimization, phase gadget reduction, and hardware-agnostic retargeting.
 
-15. **[OpenQAOA](https://github.com/entropicalabs/openqaoa)** [![GitHub stars](https://img.shields.io/github/stars/entropicalabs/openqaoa?style=social&color=white)](https://github.com/entropicalabs/openqaoa/stargazers)  
+15. **[OpenQAOA](https://github.com/entropicalabs/openqaoa)** [![GitHub_Stars](https://img.shields.io/github/stars/entropicalabs/openqaoa?style=social&color=white)](https://github.com/entropicalabs/openqaoa/stargazers)  
     Entropica Labs' multi-backend Python SDK dedicated to designing, testing, and optimizing Quantum Approximate Optimization Algorithm (QAOA) workflows on NISQ devices and classical simulators.
 
 ---
