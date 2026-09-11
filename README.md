@@ -14,41 +14,25 @@ This repository tracks notable **cloud/SaaS platforms** and **open-source projec
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
 ## SaaS/Hosted Platforms
-- **[IBM Quantum](https://www.ibm.com/quantum)**  
-  Leading quantum cloud platform offering access to superconducting processors, extensive free tier, and the Qiskit ecosystem for circuit development and execution.
 
-- **[Azure Quantum](https://azure.microsoft.com/en-us/products/quantum)**  
-  Microsoft’s quantum cloud service providing multi-provider hardware access, Q# and QDK tools, and enterprise integration.
-
-- **[Amazon Braket](https://aws.amazon.com/braket/)**  
-  AWS quantum computing service with access to multiple hardware providers (superconducting, trapped-ion, neutral-atom, annealing) and managed Jupyter environments.
-
-- **[D-Wave Leap](https://www.dwavesys.com/learn/leap/)**  
-  Cloud platform focused on quantum annealing and hybrid solvers for optimization problems, with real-time access to D-Wave systems.
-
-- **[Classiq](https://www.classiq.io/)**  
-  Quantum software platform emphasizing high-level algorithm design, circuit synthesis, and hardware-agnostic development.
-
-- **[Quantum Inspire](https://www.quantum-inspire.com/)**  
-  European quantum computing platform offering access to spin-qubit and other hardware along with educational and research tools.
-
-- **[Pasqal Cloud](https://www.pasqal.com/)**  
-  Neutral-atom quantum computing cloud platform for analog and digital quantum workloads.
-
-- **[IQM Resonance](https://www.meetiqm.com/)**  
-  Quantum cloud access platform from IQM focused on superconducting quantum computers and research/enterprise use cases.
-
-- **[Q-CTRL Fire Opal](https://q-ctrl.com/fire-opal)**  
-  Quantum infrastructure software that improves performance and error suppression on existing quantum hardware backends.
-
-- **[Rigetti QCS](https://www.rigetti.com/)**  
-  Rigetti’s Quantum Cloud Services platform providing access to their superconducting quantum processors and Forest SDK tools.
+| Platform | Description | Pricing | Free Tier Limits |
+| :--- | :--- | :--- | :--- |
+| **[IBM Quantum](https://www.ibm.com/quantum)** | Leading quantum cloud platform offering access to utility-scale superconducting processors and the Qiskit ecosystem. | Starts at $1.60/second ($96/minute) on Pay-As-You-Go Plan; Flex Plan starts at $72/minute (min 400 min/yr); Premium Plan starts at $48/minute (min 5,200 min/yr) | Open Plan: 10 minutes of quantum computer runtime per month forever; free access to simulators & learning resources |
+| **[Azure Quantum](https://azure.microsoft.com/en-us/products/quantum)** | Microsoft's quantum cloud service providing multi-provider hardware access (IonQ, Quantinuum, Rigetti, Pasqal) and QDK integration. | Pay-as-you-go per provider: Rigetti from $0.02/10ms execution; IonQ from $0.00022/1q-gate-shot + $0.000975/2q-gate-shot ($12.42–$97.50 min/exec); Pasqal from €3,000/QPU-hr | $500 free Azure Quantum credit for each participating provider (valid across first-time workspace usage) + free full local/web simulators & Resource Estimator; Azure account free trial grants $200 credits for 30 days |
+| **[Amazon Braket](https://aws.amazon.com/braket/)** | AWS quantum computing service with access to multi-provider QPUs (IonQ, IQM, QuEra, Rigetti) and managed Jupyter environments. | Pay-as-you-go: $0.30 per task + per-shot fees (Rigetti Cepheus: $0.000425/shot, IQM Garnet: $0.00145/shot, QuEra Aquila: $0.01/shot, IonQ Forte: $0.08/shot); SV1/DM1 simulators at $0.075/minute | AWS Free Tier: 1 hour (60 minutes) of on-demand simulation time (SV1, DM1, TN1) per month for the first 12 months; local SDK simulator is completely free forever |
+| **[D-Wave Leap](https://www.dwavesys.com/learn/leap/)** | Cloud platform focused on quantum annealing and hybrid solvers for optimization problems with real-time hardware access. | Starts at $109/month for Developer Plan (includes 15 minutes of hybrid solver time or 10 seconds of QPU time per month); Enterprise subscriptions available | Free permanent Developer access with 1 minute (60 seconds) of QPU time or hybrid solver compute per month upon connecting a verified GitHub account (otherwise 1 month free trial with 1 minute of QPU time) |
+| **[Classiq](https://www.classiq.io/)** | Quantum software platform emphasizing high-level algorithm design, automated circuit synthesis, and hardware-agnostic optimization. | Team / Enterprise tier starting from ~$1,500/month or custom annual contracts depending on synthesized circuit complexity and seats | Community Edition: Free forever with unlimited high-level model creation, circuit synthesis up to 50 qubits, and execution on cloud simulators |
+| **[Quantum Inspire](https://www.quantum-inspire.com/)** | European quantum computing platform from QuTech offering access to spin-qubit and superconducting hardware alongside simulators. | Commercial / partner custom reservations start from €500–€2,500/hour for dedicated hardware access slots | Free forever account: access to hardware backends (Spin-2+, Starmon-5) with a maximum of 3 queued jobs at a time; unlimited access to QI cloud simulators (up to 31 qubits) |
+| **[Pasqal Cloud](https://www.pasqal.com/)** | Neutral-atom quantum computing cloud platform for analog and digital quantum simulation and optimization workloads. | On-demand access starts at €3,000 per QPU-hour; €15 per emulator-hour (EMU-MPS / EMU-SV) via cloud integrations (Azure / Pasqal Cloud) | 30-day free sandbox access on Pasqal Cloud emulator with 20 free emulator-hours for testing neutral-atom Pulser programs |
+| **[IQM Resonance](https://www.meetiqm.com/)** | Quantum cloud service from IQM delivering direct access to on-premise superconducting QPUs (Garnet, Emerald) and simulators. | Pay-per-second / reservation starting at ~€2,000–€3,000/hour (~$0.30/task + $0.00145/shot via public cloud marketplaces) | 14-day free trial on Resonance cloud simulator and demo QPUs with up to 1 hour of simulated runtime credit |
+| **[Q-CTRL Fire Opal](https://q-ctrl.com/fire-opal)** | Quantum infrastructure software providing automated error suppression and performance enhancement across hardware backends. | Fire Opal Pro starting at $500/month; native pay-as-you-go add-on on IBM Quantum Platform starting at $1.60/runtime-minute | Free tier available forever: execute circuits up to 20 qubits with basic automated error suppression on public hardware backends |
+| **[Rigetti QCS](https://www.rigetti.com/)** | Rigetti's Quantum Cloud Services platform providing low-latency access to superconducting quantum processors and Forest SDK. | Starts at $0.02 per 10-millisecond increment of job execution time (~$1.20/minute of pure QPU time); reservations from $4,100/hour | Free forever Quantum Virtual Machine (QVM) simulation via pyQuil and Forest SDK; initial free test credit granted for new QCS accounts (or through Azure $500 Rigetti credits) |
 
 ## Open-Source GitHub Projects
 - **[Qiskit](https://github.com/Qiskit/qiskit)**  
